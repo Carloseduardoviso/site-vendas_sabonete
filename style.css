@@ -8,6 +8,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    border-radius: 50%;
   }
   .header {
     width: 100%;
@@ -19,10 +20,15 @@
     flex-wrap: wrap;
     padding: 30px;
     gap: 8px 15px;
+    border-radius: 50%;
   }
   .logoNavBar {
     width: 180px;
   }
+  .logoNavBar {
+    border-radius: 50%;
+  }
+
   .headerBtnGroup {
     display: flex;
     gap: 15px;
